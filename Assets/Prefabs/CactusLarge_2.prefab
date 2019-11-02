@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6556540279061590406}
   - component: {fileID: 6556540279061590405}
+  - component: {fileID: 317411136686387775}
+  - component: {fileID: 7107156869853747904}
+  - component: {fileID: 3217550671200111058}
   m_Layer: 0
   m_Name: CactusLarge_2
   m_TagString: Enemy
@@ -81,3 +84,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &317411136686387775
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6556540279061590404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16302538, y: 0.18340367}
+  m_Size: {x: 0.17394924, y: 0.42125976}
+  m_Direction: 0
+--- !u!70 &7107156869853747904
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6556540279061590404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0054341555, y: 0.025812387}
+  m_Size: {x: 0.17938352, y: 0.9483752}
+  m_Direction: 0
+--- !u!70 &3217550671200111058
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6556540279061590404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18340361, y: 0.076078475}
+  m_Size: {x: 0.13319278, y: 0.4348451}
+  m_Direction: 0

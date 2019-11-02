@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5329577124162199613}
   - component: {fileID: 8755886251332812169}
   - component: {fileID: -4913656353003843099}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
